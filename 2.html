@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post">
+<p>
+<label for="username">用户名</label>
+<input name="username" type="text" id="username" autocomplete="off" value="请输入用户名" size="20" maxlength="30">
+  </p>
+	
+  <p>
+	<label for="ps"	>密码</label>
+	<input name="ps" type="password" id="ps" size="20" maxlength="30">
+</p>
+
+<p>性别:
+<input type="raido" name="sex" id="male" value="man">
+ <label for="male">男 </label>
+ 
+<input type="raido" name="sex" id="female" value="women">
+ <label for="female">女 </label>
+ </p>
+ 
+ <p>爱好：
+ <input type="checkbox" name="fav[]" id="fav[]" value="music" >
+ <label for="yinyue">音乐 </label>
+ <input type="checkbox" name="fav[]" id="fav[]" value="sport" >
+ <label for="lanqiu">篮球</label>
+</p>
+<p>
+<label for="jiguan">籍贯：</label>
+<select name="jiguan" id="jiguan">
+	<option value="sichuan" selected>四川</option>
+	<option value="beijing">北京</option>
+	<option value="shanghai">上海</option>
+	<option value="chuangzhou">广州</option>
+	<option value="shenzhen">深圳</option>
+	</select>
+	</p>
+	<p>
+ 	<input type="subimt" value="提交"><input type="subimt" value="重置">
+ 	<input type="button" name="button" id="button" value="点我" onclick="alert('Hello World!')">
+ 	<button type="button" onclick="alert('Just Do It!')">再点击我！</button>
+	</p>
+																		
+</form>
+</body>
+</html>
